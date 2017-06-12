@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : OASystem : OASystem-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/OASystem-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpJbXBsZW1lbnRhdGlvbi1UaXRsZTogT0FTeXN0ZW0NCkltcGxlbWVudGF0aW9uLVZlcnNpb246IDEuMC1TTkFQU0hPVA0KQnVpbGQtVG9vbDogR3JhZGxlDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/OASystem-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="OASystem_main/web/Web Gradle : OASystem-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="OASystem_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.mybatis/mybatis/3.4.4/31f6ee836efc0a69e07d44f71deb0b0b4fd0f0c4/mybatis-3.4.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.mybatis/mybatis-docbook/1.0.0/57de2d1a7869c8f390918da965ae8e0094cf5a9c/mybatis-docbook-1.0.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.mybatis/mybatis-2-spring/1.0.3/db01844f8afb85ee101f8b9e213855e9de8ee232/mybatis-2-spring-1.0.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.apache.poi/poi/3.9/5d5e41354e88322e4bc590b31f3d2d1d52b3e6ac/poi-3.9.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/commons-codec/commons-codec/1.5/cf993e250ff71804754ec2734a16f23c0be99f70/commons-codec-1.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/wrapper/dists/gradle-2.12-bin/drvcq87yz3q75wjwhcj7mjrl9/gradle-2.12/bin/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
