@@ -1,0 +1,65 @@
+group 'OASystem'
+version '1.0-SNAPSHOT'
+buildscript {
+    repositories { maven {url 'http://121.42.27.219:8081/nexus/content/groups/public/'} }
+
+    dependencies {
+        classpath 'com.netflix.nebula:nebula-dependency-recommender:3.1.0'
+        classpath 'org.akhikhl.gretty:gretty:+'
+    }
+}
+
+apply plugin: 'war'
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'nebula.dependency-recommender'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework:spring-webmvc:4.3.2.RELEASE"
+    compile "org.mybatis:mybatis:3.4.4"
+    compile "org.mybatis:mybatis-docbook:1.0.0"
+    compile "org.mybatis:mybatis-2-spring:1.0.3"
+    compile "org.apache.poi:poi:3.9"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+product {
+    webapp project
+}
+
+war {
+    // 新版 Gradle 似乎不再需要，测试war包无问题后，删除此行 encoding = 'UTF-8'
+    manifest {
+        attributes 'Implementation-Title': 'OASystem',
+                'Implementation-Version': version,
+                'Build-Tool' : 'Gradle'
+    }
+}
+
+gretty {
+    httpPort 10005
+    contextPath '/OASystem'
+    inplaceMode 'hard'
+
+    /* ===== Debug ===== */
+    debugPort = 9998
+    debugSuspend = false
+
+    /* ===== Hot Deployment ===== */
+    // managedClassReload       false   // class 改到后，不重载，直接替换 JVM 中已加载的类；***以 sping-loader 实现，不好用***
+    // reloadOnConfigChange     true    // WEB-INF 或 META-INF 下的配置文件有改动后重载
+    // reloadOnLibChange        true    // WEB-INF/lib 下的 jar 文件有改动后重载
+    reloadOnClassChange         false
+    recompileOnSourceChange     false
+
+
+
+    /* ===== Others ===== */
+    jvmArgs = [
+            '-XX:MaxPermSize=512m'
+    ]
+    scanner 'jdk'
+}
