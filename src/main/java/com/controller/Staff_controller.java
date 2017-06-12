@@ -1,6 +1,6 @@
-package com.chinactOA.controller;
+package com.controller;
 
-import com.chinactOA.Beans.Attendance;
+import com.Beans.Attendance;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;

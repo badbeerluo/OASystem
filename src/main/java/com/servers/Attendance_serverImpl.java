@@ -1,6 +1,6 @@
-package com.chinactOA.servers;
+package com.servers;
 
-import com.chinactOA.Beans.Attendance;
+import com.Beans.Attendance;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
