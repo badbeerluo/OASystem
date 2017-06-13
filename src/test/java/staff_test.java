@@ -1,7 +1,7 @@
-import com.chinactOA.Beans.Attendance;
-import com.chinactOA.commons.ReadExcel;
-import com.chinactOA.controller.Staff_controller;
-import com.chinactOA.servers.Staff_serverImpl;
+import com.Beans.Attendance;
+import com.commons.ReadExcel;
+import com.controller.Staff_controller;
+import com.servers.Staff_serverImpl;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -9,9 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
-/**
- * Created by Administrator on 2017/6/7.
- */
 public class staff_test {
      public static void main(String[] args) {
          Staff_serverImpl ss = new Staff_serverImpl();

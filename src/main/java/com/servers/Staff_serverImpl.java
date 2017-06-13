@@ -1,6 +1,6 @@
-package com.chinactOA.servers;
+package com.servers;
 
-import com.chinactOA.Beans.Staff;
+import com.Beans.Staff;
 import org.springframework.stereotype.Service;
 
 /**
